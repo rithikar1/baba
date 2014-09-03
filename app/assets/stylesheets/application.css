@@ -12,3 +12,15 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
+
+
+.first{
+	background-color:#ffffff;
+	border: 1px solid;
+	border-radius: 25px;
+	border-color: transparent;
+	padding: 10px 40px;
+}
+
+
+ 

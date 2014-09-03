@@ -1269,17 +1269,17 @@ $default-float: left;
 
 // Controlling the styles for the title in the top bar
 
-// $topbar-title-weight: bold;
+ $topbar-title-weight: normal;
 // $topbar-title-font-size: em-calc(17);
 
 // Style the top bar dropdown elements
 
-// $topbar-dropdown-bg: #222;
+// $topbar-dropdown-bg: #444444;
 // $topbar-dropdown-link-color: #fff;
 // // $topbar-dropdown-link-bg: lighten($topbar-bg-color, 5%);
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.5;
+// $topbar-dropdown-toggle-alpha: 5.0;
 
 // Set the link colors and styles for top-level nav
 
@@ -1310,7 +1310,7 @@ $default-float: left;
 
 // Transitions and breakpoint styles
 
-// $topbar-transition-speed: 300ms;
+// $topbar-transition-speed: 1000ms;
 // $topbar-breakpoint: 940 !default; // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 
