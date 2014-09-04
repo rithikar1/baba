@@ -1255,44 +1255,44 @@ $default-float: left;
 
 // Background color for the top bar
 
- $topbar-bg-color: #444446;
-// $topbar-bg: $topbar-bg-color;
+ $topbar-bg-color: #363639;
+ //$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 
  $topbar-height: 50px;
-// $topbar-margin-bottom: 0;
+  //$topbar-margin-bottom: 0px;
 
 // Control Input height for top bar
 
-// $topbar-input-height: 2.45em;
+//$topbar-input-height: 3.45em;
 
 // Controlling the styles for the title in the top bar
 
  $topbar-title-weight: normal;
-// $topbar-title-font-size: em-calc(17);
+   $topbar-title-font-size: em-calc(21);
 
 // Style the top bar dropdown elements
 
 // $topbar-dropdown-bg: #444444;
 // $topbar-dropdown-link-color: #fff;
 // // $topbar-dropdown-link-bg: lighten($topbar-bg-color, 5%);
-// $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 5.0;
+ $topbar-dropdown-toggle-size: 5px;
+ $topbar-dropdown-toggle-color: #F5DFB0;
+ $topbar-dropdown-toggle-alpha: 0.1;
 
 // Set the link colors and styles for top-level nav
 
 // $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
-// $topbar-link-weight: bold;
-// $topbar-link-font-size: em-calc(13);
-// $topbar-link-hover-lightness: -30%; // Darken by 30%
-// $topbar-link-bg-hover: darken($topbar-bg-color, 3%);
-// $topbar-link-bg-active: darken($topbar-bg-color, 3%);
+ $topbar-link-color-hover: red;
+ //$topbar-link-color-active: #fff;
+ $topbar-link-weight: normal;
+ $topbar-link-font-size: em-calc(14);
+ //$topbar-link-hover-lightness: 0%; // Darken by 30%
+ $topbar-link-bg-hover: darken($topbar-bg-color, 0%);
+ //$topbar-link-bg-active: darken($topbar-bg-color, 6%);
 
-// $topbar-dropdown-label-color: #555;
+ $topbar-dropdown-label-color: #F5DFB0;
 // $topbar-dropdown-label-text-transform: uppercase;
 // $topbar-dropdown-label-font-weight: bold;
 // $topbar-dropdown-label-font-size: em-calc(10);
@@ -1303,14 +1303,14 @@ $default-float: left;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: em-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
+ $topbar-menu-link-color: transparent;
 // $topbar-menu-icon-color: #fff;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
 // Transitions and breakpoint styles
 
-// $topbar-transition-speed: 1000ms;
+// $topbar-transition-speed: 23s;
 // $topbar-breakpoint: 940 !default; // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 

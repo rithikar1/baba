@@ -15,12 +15,32 @@
 
 
 .first{
-	background-color:#ffffff;
+	background-color:transparent;
 	border: 1px solid;
 	border-radius: 25px;
 	border-color: transparent;
 	padding: 10px 40px;
 }
 
+.second{
+	border: 1px solid;
+	border-radius: 10px;
+		border-color: transparent;
+    padding: 10px ;
+    background-color:#ffffff;
 
- 
+ }
+.image{
+	border: 1px solid;
+	border-radius: 10px;
+	    background-color:transparent;
+
+}
+
+ .top-bar{
+ 	border-radius: 6px;
+ }
+
+ .top-bar-section li a{
+ 	padding: 0px 60.6667px;
+ }
