@@ -1277,9 +1277,9 @@ $default-float: left;
 // $topbar-dropdown-bg: #444444;
 // $topbar-dropdown-link-color: #fff;
 // // $topbar-dropdown-link-bg: lighten($topbar-bg-color, 5%);
- $topbar-dropdown-toggle-size: 5px;
- $topbar-dropdown-toggle-color: #F5DFB0;
- $topbar-dropdown-toggle-alpha: 0.1;
+// $topbar-dropdown-toggle-size: 5px;
+// $topbar-dropdown-toggle-color: #F5DFB0;
+// $topbar-dropdown-toggle-alpha: 0.1;
 
 // Set the link colors and styles for top-level nav
 
@@ -1290,7 +1290,7 @@ $default-float: left;
  $topbar-link-font-size: em-calc(14);
  //$topbar-link-hover-lightness: 0%; // Darken by 30%
  $topbar-link-bg-hover: darken($topbar-bg-color, 0%);
- //$topbar-link-bg-active: darken($topbar-bg-color, 6%);
+ $topbar-link-bg-active: darken($topbar-bg-color, 6%);
 
  $topbar-dropdown-label-color: #F5DFB0;
 // $topbar-dropdown-label-text-transform: uppercase;
